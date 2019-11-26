@@ -256,15 +256,15 @@ operations on the resulting group of dataframes::
 Plotting data
 ..............
 
-.. currentmodule:: pandas.tools
+.. currentmodule:: pandas.plotting
 
-Pandas comes with some plotting tools (:mod:`pandas.tools.plotting`, using
+Pandas comes with some plotting tools (:mod:`pandas.plotting`, using
 matplotlib behind the scene) to display statistics of the data in
 dataframes:
 
 **Scatter matrices**::
 
-    >>> from pandas.tools import plotting
+    >>> from pandas import plotting
     >>> plotting.scatter_matrix(data[['Weight', 'Height', 'MRI_Count']])   # doctest: +SKIP
 
 .. image:: auto_examples/images/sphx_glr_plot_pandas_002.png
