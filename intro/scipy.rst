@@ -1075,7 +1075,7 @@ spectrums over consecutive time windows--, while
 Image manipulation: :mod:`scipy.ndimage`
 -----------------------------------------
 
-.. include:: image_processing/image_processing.rst
+.. include:: image_processing.rst
     :start-line: 1
 
 
